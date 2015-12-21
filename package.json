@@ -1,0 +1,26 @@
+{
+  "name": "angularjs-examples",
+  "version": "1.0.0",
+  "description": "Probando Angular",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luissardon/angularjs-examples.git"
+  },
+  "author": "Luis Sardon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luissardon/angularjs-examples/issues"
+  },
+  "homepage": "https://github.com/luissardon/angularjs-examples#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7"
+  }
+}
