@@ -23,7 +23,7 @@ path.js = {
 
 // TASKS
 gulp.task('html', function() {
-    return gulp.src(path.jade.src + '/*.jade')
+    return gulp.src(path.jade.src + '/**/*.jade')
     .pipe(jade({
         pretty: true
     }).on('error', gutil.log))
@@ -31,7 +31,7 @@ gulp.task('html', function() {
 });
 
 gulp.task('js', function() {
-    return gulp.src(path.js.src + '/*.coffee')
+    return gulp.src(path.js.src + '/**/*.coffee')
         .pipe(sourcemaps.init())
         .pipe(coffee({
             bare: true

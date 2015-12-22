@@ -4,4 +4,3 @@ angular
         this.algo = "ALGO!!!"
         return
 
-console.log angular.module 'pruebaApp'
